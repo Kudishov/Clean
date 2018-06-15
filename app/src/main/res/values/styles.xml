@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/font_normal_italic</item>ØØ
+    </style>
+
+    <style name="MainTheme.Toolbar" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/MainTheme.Toolbar.Title</item>
+    </style>
+
+    <style name="MainTheme.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/font_normal</item>
+    </style>
+
+    <style name="MainTheme.Button" parent="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:minHeight">60dp</item>
+    </style>
+
+    <style name="TextViewItemFruitStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+
+    <style name="TextInputLayoutStyle">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/tvMainFruitId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemFruitStyle"/>
+
+    <TextView
+        android:id="@+id/tvMainFruitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemFruitStyle"/>
+
+    <TextView
+        android:id="@+id/tvMainFruitColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemFruitStyle"/>
+
+    <TextView
+        android:id="@+id/tvMainFruitWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemFruitStyle"/>
+
+    <TextView
+        android:id="@+id/tvMainFruitDelicious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemFruitStyle"/>
+
+    <TextView
+        android:id="@+id/tvMainFruitCreatedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemFruitStyle"/>
+
+    <TextView
+        android:id="@+id/tvMainFruitUpdatedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewItemFruitStyle"/>
+
+</LinearLayout>

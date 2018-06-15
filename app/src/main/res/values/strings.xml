@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Clean</string>
+    <string name="fruits_list_title">Веселые фруктики</string>
+    <string name="repeat">Повторить</string>
+    <string name="error">Ошибка</string>
+    <string name="error_text">Уупс.. Что-то пошло не так</string>
+    <string name="add_fruit">Добавить фрукт</string>
+    <string name="fruit_create">Создание фрукта</string>
+    <string name="tilAddFruitNameHint">Введите название фрукта</string>
+    <string name="tilAddFruitColorHint">Введите цвет фрукта</string>
+    <string name="tilAddFruitWeightHint">Введите вес фрукта</string>
+    <string name="tilAddFruitDeliciousHint">Введите вкус фрукта</string>
+    <string name="tilAddFruitCreateDateHint">Введите дату создания фрукта</string>
+    <string name="tilAddFruitUpdateDateHint">Введите дату обновления фрукта</string>
+    <string name="btn_create_fruit_text">Создать фрукт</string>
+    <string name="gj">Успех</string>
+    <string name="on_fruct_created">Фрукт успешно создан</string>
+    <string name="great">Отлично!</string>
+    <string name="fruitId">ID  фрукта - %1$s</string>
+    <string name="fruitName">Название фрукта - %1$s</string>
+    <string name="fruitColor">Цвет фрукта - %1$s</string>
+    <string name="fruitWeight">Вес фрукта - %1$s</string>
+    <string name="fruitDelicious">Вкусность фрукта - %1$s</string>
+    <string name="fruitCreateAt">Дата создания фрукта - %1$s</string>
+    <string name="fruitUpdateAt">Дата обновления фрукта - %1$s</string>
+</resources>
